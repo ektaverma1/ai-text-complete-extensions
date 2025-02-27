@@ -20,7 +20,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 async function fetchCompletion(text) {
   console.log("Starting API call with text:", text);
   const API_KEY =
-    "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";
+    "YOUR_API_KEY";
 
   try {
     const requestBody = {
